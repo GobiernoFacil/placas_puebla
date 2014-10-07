@@ -111,6 +111,7 @@ define(function(require){
     	$("#top-ten").hide();
     	$("#worst-ten").hide();
     	$("#just-all").hide();
+    	$("#info").hide();
 		
 		$("#nav a").on('click', function(){
 			$("#nav").find("a").removeClass('current');
@@ -123,6 +124,7 @@ define(function(require){
 			$("#worst-ten").hide();
 			$("#just-all").hide();
 			$("#base-map").hide();
+			$("#info").hide();
 			
 			$("#"+sectionName).show();
 			 
