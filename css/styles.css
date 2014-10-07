@@ -1035,11 +1035,41 @@ footer {
 
 /* max-width: 480px
 -------------------------------------------------------------- */
-@media screen and (max-width: 480px) { }
+@media screen and (max-width: 480px) {
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 18px; }
+  p, ul, ol, dl, table, form {
+    font-size: 14px; }
+  p.lead {
+    font-size: 16px; }
+  #nav li {
+    margin: 11px 0; }
+  svg {
+    margin-left: -185px; }
+  #worst-ten tr th:nth-child(3), #worst-ten tr td:nth-child(3), #worst-ten tr th:nth-child(4), #worst-ten tr td:nth-child(4), #worst-ten tr th:nth-child(6), #worst-ten tr td:nth-child(6), #just-all tr th:nth-child(3), #just-all tr td:nth-child(3), #just-all tr th:nth-child(4), #just-all tr td:nth-child(4), #just-all tr th:nth-child(6), #just-all tr td:nth-child(6) {
+    display: none; }
+  #top-ten tr th:nth-child(3), #top-ten tr td:nth-child(3), #top-ten tr th:nth-child(4), #top-ten tr td:nth-child(4), #top-ten tr th:nth-child(5), #top-ten tr td:nth-child(5) {
+    display: none; } }
 
 /* min-width: 481px and max-width:767px
 -------------------------------------------------------------- */
-@media screen and (min-width: 481px) and (max-width: 767px) { }
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 18px; }
+  p, ul, ol, dl, table, form {
+    font-size: 14px; }
+  p.lead {
+    font-size: 16px; }
+  #nav li {
+    margin: 11px 0; }
+  svg {
+    margin-left: -185px; }
+  #worst-ten tr th:nth-child(3), #worst-ten tr td:nth-child(3), #worst-ten tr th:nth-child(4), #worst-ten tr td:nth-child(4), #worst-ten tr th:nth-child(6), #worst-ten tr td:nth-child(6), #just-all tr th:nth-child(3), #just-all tr td:nth-child(3), #just-all tr th:nth-child(4), #just-all tr td:nth-child(4), #just-all tr th:nth-child(6), #just-all tr td:nth-child(6) {
+    display: none; }
+  #top-ten tr th:nth-child(3), #top-ten tr td:nth-child(3), #top-ten tr th:nth-child(4), #top-ten tr td:nth-child(4), #top-ten tr th:nth-child(5), #top-ten tr td:nth-child(5) {
+    display: none; } }
 
 /* =Print
 ----------------------------------------------- */
